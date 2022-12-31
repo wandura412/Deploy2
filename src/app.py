@@ -16,6 +16,7 @@ import json
 
 
 app = dash.Dash(__name__)
+server = app.server in src/app.py
 
 url="https://covid.ourworldindata.org/data/owid-covid-data.xlsx"
 #C:\Users\Dasitha Wanduragala\Desktop\Data science\HNDDS\Visualization\Assignment\owid-covid-data.xlsx
